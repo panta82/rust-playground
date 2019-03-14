@@ -1,0 +1,8 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Panta <ivanpantic82@gmail.com>"]
+
+[[bin]]
+name = "hello"
+path = "src/hello.rs"
