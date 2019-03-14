@@ -6,3 +6,11 @@ authors = ["Panta <ivanpantic82@gmail.com>"]
 [[bin]]
 name = "hello"
 path = "src/hello.rs"
+
+[[bin]]
+name = "lets"
+path = "src/lets.rs"
+
+[[bin]]
+name = "control"
+path = "src/control.rs"
