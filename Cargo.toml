@@ -14,3 +14,11 @@ path = "src/lets.rs"
 [[bin]]
 name = "control"
 path = "src/control.rs"
+
+[[bin]]
+name = "fns"
+path = "src/fns.rs"
+
+[[bin]]
+name = "arrays"
+path = "src/arrays.rs"
