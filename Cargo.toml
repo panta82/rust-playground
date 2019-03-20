@@ -26,7 +26,11 @@ path = "src/arrays.rs"
 [[bin]]
 name = "vectors"
 path = "src/vectors.rs"
-[[bin]]
 
+[[bin]]
 name = "strings"
 path = "src/strings.rs"
+
+[[bin]]
+name = "cat"
+path = "src/cat.rs"
