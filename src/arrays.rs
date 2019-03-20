@@ -18,6 +18,17 @@ fn main() {
 	sort(&mut a);
 
 	println!("After sliced: {:?}", a);
+
+	let slice = &a;
+	let first = slice.get(0);
+	let last = slice.get(5);
+
+	println!("{:?}", first);
+	println!("{:?}", last);
+
+	println!("{:?}", first.unwrap());
+	println!("{:?}", last.is_some());
+	println!("{:?}", last.is_none());
 }
 
 fn sort(arr: &mut [i32]) {

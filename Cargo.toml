@@ -22,3 +22,7 @@ path = "src/fns.rs"
 [[bin]]
 name = "arrays"
 path = "src/arrays.rs"
+
+[[bin]]
+name = "vectors"
+path = "src/vectors.rs"
